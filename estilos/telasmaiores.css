@@ -342,3 +342,12 @@
 
 }
 
+
+@media only screen and (min-width: 1200px) {
+    body{
+        overflow-x: hidden;
+    }
+    header > nav > .lista{
+        left: 68%;
+    }
+}
