@@ -28,12 +28,12 @@
         padding: 30px 40px;
 
     }
-    #home > #buttons >button#seemywork{
+    #home > #buttons > a > button#seemywork{
         font-size:20px;
         top: 2px;
 
     }
-    #home > #buttons > #seemywork > i.play{
+    #home > #buttons > a > #seemywork > i.play{
         padding: 30px;
         font-size: 20px;
     }
@@ -241,7 +241,7 @@
     #home > #buttons > button#sayhello{
         font-size: 14px;   
     }
-    #home > #buttons >button#seemywork{
+    #home > #buttons > a > button#seemywork{
         font-size: 14px;
     }
     #aboutme > h2{
