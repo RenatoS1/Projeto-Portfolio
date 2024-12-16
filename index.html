@@ -8,6 +8,34 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/telasmaiores.css">
     <link rel="shortcut icon" href="icones/rs.png" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net
+    /gh/studio-freight/lenis@1.0.22
+    /bundled/lenis.min.js"></script>
+    <script>
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) > Math.min(1, 1.001
+                - Math.pow(2, -10 * t)),
+            orientation: 'vertical',
+            gestureOrientation: 'vertical',
+            smoothWheel: true,
+            wheelMultiplier: 1,
+            smoothTouch: false,
+            touchMultiplier: 2,
+            infinite: false,
+        });
+        //get scroll vali
+        lenis.on('scroll', (e) => {
+        console.log(e)
+        })
+        function raf(time) {
+        lenis.raf(time)
+        requestAnimationFrame(raf)
+        }
+        requestAnimationFrame(raf)
+    </script>
+</head>
 <body>
     
     <header>
