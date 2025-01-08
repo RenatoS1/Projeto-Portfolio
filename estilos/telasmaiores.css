@@ -2,9 +2,11 @@
     .header > h1{
         font-size:50px;
         margin: 0px 0px 0px 20px;
+
     }
     .menu .barra{
         font-size: 40px;
+    
         left: 78%;
     }
     header > nav > .lista > li > a{

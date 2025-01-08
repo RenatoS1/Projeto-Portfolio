@@ -28,6 +28,15 @@
     border: 2px solid #202020;
 }
 
+body{
+    background-color: #202020;
+    color: var(--color2);
+    font-size: 16px;
+    line-height: 26px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+
 header{
     padding: 0px;
     
@@ -64,6 +73,7 @@ header{
     color: var(--color2);
     font-weight: 700;
     font-size: 35px;
+    line-height: 50px;
 }
 .header span{
     color: #AC0000;
