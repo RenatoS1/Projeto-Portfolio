@@ -28,6 +28,10 @@
     border: 2px solid #202020;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #202020;
     color: var(--color2);
