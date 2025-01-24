@@ -28,9 +28,6 @@
     border: 2px solid #202020;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 body{
     background-color: #202020;
@@ -533,7 +530,7 @@ header > nav > .lista > li > a{
 .xp02{
     background-color: #2A2A2A;
     width: 330px;
-    height: 400px;
+    height: 450px;
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
