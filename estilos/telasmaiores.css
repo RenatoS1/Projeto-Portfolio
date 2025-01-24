@@ -16,26 +16,36 @@
     #home > h3 {
         font-size: 30px;
     }
-    #home > #buttons{
+    #home > #links{
         margin-top: 50px; 
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    #home > #buttons > button#sayhello{
+    #home > #links > #sayhello{
         font-size: 20px; 
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px 40px;
-
+        padding: 10px 40px;
+        text-decoration: none;
+        position: relative;
+        top: 1px;
     }
-    #home > #buttons > a > button#seemywork{
+
+    #home > #links > #sayhello > p {
+        position: relative;
+        top:2px;
+    }
+    
+
+
+    #home > #links > a > button#seemywork{
         font-size:20px;
         top: 2px;
 
     }
-    #home > #buttons > a > #seemywork > i.play{
+    #home > #links > a > #seemywork > i.play{
         padding: 30px;
         font-size: 20px;
     }
@@ -237,13 +247,13 @@
     #home > h3{
         font-size: 30px;
     }
-    #home > #buttons{
+    #home > #links{
         margin-top: 50px;  
     }
-    #home > #buttons > button#sayhello{
+    #home > #links > #sayhello{
         font-size: 14px;   
     }
-    #home > #buttons > a > button#seemywork{
+    #home > #links > a > button#seemywork{
         font-size: 14px;
     }
     #aboutme > h2{

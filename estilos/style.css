@@ -182,7 +182,7 @@ header > nav > .lista > li > a{
 #home > h3 > span{
     color: var(--color0);
 }
-#home > #buttons{
+#home > #links{
     display: flex;
     margin-top: 120px;
     
@@ -191,10 +191,10 @@ header > nav > .lista > li > a{
     width: 250px;
 
 }
-#home > #buttons > button#sayhello:hover{
+#home > #links > #sayhello:hover{
     transform: scale(0.90);
 }
-#home > #buttons > button#sayhello{
+#home > #links > #sayhello{
     background-color: var(--color0);
     color: var(--color2);
     font-weight: 600;
@@ -208,8 +208,18 @@ header > nav > .lista > li > a{
     white-space: nowrap;
     transition: transform 0.5s ease;
     cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    top: -3px;
+    
+    
 }
-#home > #buttons > a > button#seemywork{
+#home > #links > #sayhello > p {
+    position: relative;
+    top: 6px;
+}
+
+#home > #links > a > button#seemywork{
     background-color: transparent;
     color:var(--color2) ;
     border: none;
@@ -222,10 +232,10 @@ header > nav > .lista > li > a{
     transition: transform 0.5s ease;
     cursor: pointer;
 }
-#home > #buttons > a > button#seemywork > i.play:hover{
+#home > #links > a > button#seemywork > i.play:hover{
     transform: scale(0.90);
 }
-#home > #buttons > a > #seemywork > i.play{
+#home > #links > a > #seemywork > i.play{
     background-color: #AC0000;
     font-size: 15px;
     padding: 20px 20px;
